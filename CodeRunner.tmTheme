@@ -121,7 +121,7 @@ Colors
 -->
 		<dict>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css</string>
+			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.css punctuation.definition.entity.css </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
