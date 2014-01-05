@@ -514,7 +514,7 @@ Colors
 			<key>name</key>
 			<string>Tag attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name, meta.tag.structure.any.html, meta.tag.inline.any.html, meta.tag.any.html, meta.tag.block.any.html, meta.tag.other.html, meta.tag.preprocessor.xml, meta.tag.xml</string>
+			<string>entity.other.attribute-name, meta.tag.structure.any.html, meta.tag.inline.any.html, meta.tag.any.html, meta.tag.block.any.html, meta.tag.other.html, meta.tag.preprocessor.xml, meta.tag.xml, source.js.embedded.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
