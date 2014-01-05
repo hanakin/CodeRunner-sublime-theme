@@ -277,6 +277,21 @@ Colors
 				<string>#EDAC57</string>
 			</dict>
 		</dict>
+<!-- 
+	JSON
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>JSON String</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDAC57</string>
+			</dict>
+		</dict>
 <!--
 ======================================================================
 @red #F75972
@@ -486,7 +501,6 @@ Colors
 				<string>#A3CAD6</string>
 			</dict>
 		</dict>
-
 <!--
 ======================================================================
 @purple-pale #91A6FA
@@ -500,7 +514,7 @@ Colors
 			<key>name</key>
 			<string>Tag attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name, meta.tag.structure.any.html, meta.tag.inline.any.html, meta.tag.any.html, meta.tag.block.any.html, meta.tag.other.html, meta.tag.preprocessor.xml </string>
+			<string>entity.other.attribute-name, meta.tag.structure.any.html, meta.tag.inline.any.html, meta.tag.any.html, meta.tag.block.any.html, meta.tag.other.html, meta.tag.preprocessor.xml, meta.tag.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -626,6 +640,47 @@ Colors
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#8FBE00</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library variable</string>
+			<key>scope</key>
+			<string>support.other.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
 <!-- 
 	CSS
 	------------------------------------------------------------------
@@ -639,64 +694,10 @@ Colors
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-		
-		
-		
-		
-		
-		<dict>
-			<key>name</key>
-			<string>Library variable</string>
-			<key>scope</key>
-			<string>support.other.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid</string>
-			<key>scope</key>
-			<string>invalid</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#00A8C6</string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#ff0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid deprecated</string>
-			<key>scope</key>
-			<string>invalid.deprecated</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#8FBE00</string>
-				<key>foreground</key>
-				<string>#ff0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ff0000</string>
-			</dict>
-		</dict>
-
-
-
+<!-- 
+	OTHER - WIP
+	------------------------------------------------------------------
+-->
 
 		<dict>
 			<key>name</key>
