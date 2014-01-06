@@ -104,12 +104,38 @@ Colors
 			</dict>
 		</dict>
 <!-- 
+	JAVASCRIPT
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>support.constant.js, entity.name.type.object.js, support.constant.dom.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+<!-- 
 	HTML
 	------------------------------------------------------------------
 -->
 		<dict>
 			<key>scope</key>
 			<string>string.quoted.double.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>meta.link.inline.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -219,6 +245,7 @@ Colors
 				<string>#9BDE9E</string>
 			</dict>
 		</dict>
+
 <!-- 
 	XML
 	------------------------------------------------------------------
@@ -232,6 +259,36 @@ Colors
 				<string>#9BDE9E</string>
 			</dict>
 		</dict>	
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag.script.html, source.js.embedded.html punctuation.definition.tag.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>string.other.link.description.title.markdown, string.other.link.description.title.markdown punctuation.definition.string.begin.markdown, string.other.link.description.title.markdown punctuation.definition.string.end.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
 <!-- 
 	LESS
 	------------------------------------------------------------------
@@ -259,6 +316,19 @@ Colors
 			<string>Number</string>
 			<key>scope</key>
 			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDAC57</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>markup.raw.inline.markdown</string> 
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -313,6 +383,19 @@ Colors
 				<string>#F75972</string>
 			</dict>
 		</dict>
+<!-- 
+	XML
+	------------------------------------------------------------------
+-->	
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.tag.begin.xml, punctuation.definition.tag.end.xml, entity.name.tag.localname.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F75972</string>
+			</dict>
+		</dict>	
 <!-- 
 	HTML
 	------------------------------------------------------------------
@@ -488,9 +571,18 @@ Colors
 			</dict>
 		</dict>
 <!-- 
-	HTML
+	MARKDOWN
 	------------------------------------------------------------------
 -->
+		<dict>
+			<key>scope</key>
+			<string>markup.heading.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BD9F2</string>
+			</dict>
+		</dict>
 <!--
 ======================================================================
 @blue-pale #A3CAD6
@@ -507,6 +599,30 @@ Colors
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
+				<key>foreground</key>
+				<string>#A3CAD6</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>markup.bold.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A3CAD6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.italic.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#A3CAD6</string>
 			</dict>
@@ -542,6 +658,32 @@ Colors
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#91A6FA</string>
+			</dict>
+		</dict>
+<!-- 
+	JAVASCRIPT
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>variable.parameter.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#91A6FA</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>markup.list, punctuation.definition.list_item.markdown</string> 
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>#91A6FA</string>
 			</dict>
@@ -700,6 +842,19 @@ Colors
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown</string> 
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
