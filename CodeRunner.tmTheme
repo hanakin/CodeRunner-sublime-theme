@@ -18,6 +18,7 @@ Colors
 @green:			#9BDE9E - KeywordColor
 @orange:		#EDAC57 - NumberColor
 @red:			#F75972 - StringColor
+@dark-red 		#F75972
 @gray:			#7D8C93 - CommentColor
 @blue-gray:		#99B1BF - SelectionColor
 @light-blue:	#9BD9F2 - ClassColor
@@ -320,7 +321,7 @@ Colors
 			<key>name</key>
 			<string>Tag name</string>
 			<key>scope</key>
-			<string>entity.name.tag, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.html, punctuation.definition.tag.begin.xml, punctuation.definition.tag.end.xml</string>
+			<string>entity.name.tag.structure, meta.tag.structure.any.html punctuation.definition.tag.begin.html, meta.tag.structure.any.html punctuation.definition.tag.end.html, entity.name.tag.block, meta.tag.block.any.html punctuation.definition.tag.begin.html, meta.tag.block.any.html punctuation.definition.tag.end.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -358,6 +359,28 @@ Colors
 			<dict>
 				<key>foreground</key>
 				<string>#F75972</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@dark-red #F75972
+======================================================================
+-->
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag.inline, meta.tag.inline.any.html punctuation.definition.tag.begin.html, meta.tag.inline.any.html punctuation.definition.tag.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#d5324c</string>
 			</dict>
 		</dict>
 <!--
