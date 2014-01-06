@@ -431,7 +431,7 @@ Colors
 -->
 		<dict>
 			<key>scope</key>
-			<string>entity.name.tag.css, keyword.control.html.elements, keyword.operator.less</string>
+			<string>entity.name.tag.css, keyword.control.html.elements, keyword.operator.less, variable.parameter.misc.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
