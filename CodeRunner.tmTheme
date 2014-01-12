@@ -117,6 +117,19 @@ Colors
 			</dict>
 		</dict>
 <!-- 
+	XML
+	------------------------------------------------------------------
+-->	
+		<dict>
+			<key>scope</key>
+			<string>string.unquoted.cdata.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>	
+<!-- 
 	HTML
 	------------------------------------------------------------------
 -->
@@ -245,6 +258,16 @@ Colors
 				<string>#9BDE9E</string>
 			</dict>
 		</dict>
+		<!-- @exp: namespace -->
+		<dict>
+			<key>scope</key>
+			<string>source.php.embedded.block.html constant.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
 <!-- 
 	JAVASCRIPT
 	------------------------------------------------------------------
@@ -264,7 +287,7 @@ Colors
 -->	
 		<dict>
 			<key>scope</key>
-			<string>meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml, entity.name.tag.xml</string>
+			<string>meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml, entity.name.tag.xml, punctuation.definition.string.begin.xml, punctuation.definition.string.end.xml </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -841,6 +864,15 @@ Colors
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>text.html.basic source.php.embedded.block.html meta.class.php</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
